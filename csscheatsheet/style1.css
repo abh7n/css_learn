@@ -15,11 +15,26 @@ a:active {
     color: green;
 }
 
-a:visited{
-    color:green;
+a:visited {
+    color: green;
 }
 
+.button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: none;
+}
 
+.button:hover {
+    background-color: antiquewhite;
+    color: red;
+
+    .clr {
+        clear: both;
+    }
+
+}
 
 body {
     background-color: blueviolet;
@@ -83,3 +98,136 @@ p {
 .categories ul {
     list-style: square;
 }
+
+.categories li {
+    padding-bottom: 5px;
+    border-bottom: dotted 5px beige;
+    list-style-image: url('../csscheatsheet/tick.png');
+}
+
+.my-form {
+    padding: 20px;
+}
+
+.my-form .form {
+    padding: 20px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.pbox {
+    height: 400;
+    width: 500;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('../csscheatsheet/abstract.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.pbox h1 {
+    top: 100px;
+    position: absolute;
+}
+
+.fix {
+    position: fixed;
+    top: 100px;
+    width: 40px;
+    height: 10px;
+}
+
+#mainblock {
+    float: left;
+    width: 70%;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+
+#sideblock {
+    float: right;
+    width: 30%;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.itemlist li:first-child {
+    background-color: aqua;
+}
+
+.itemlist li:last-child {
+    background-color: solid red;
+}
+
+.itemlist li:nthchild(5) {
+    background-color: black solid;
+}
+
+
+
+.mainbox {
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    font-size: 8em;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#box1 {
+    background-color: black;
+}
+
+#box2 {
+    background-color: black;
+}
+
+#box3 {
+    background-color: black;
+}
+
+#box4 {
+    background-color: black;
+    order: 1;
+}
+
+#box5 {
+    background-color: black;
+}
+
+#box6 {
+    background-color: black;
+    order: -1;
+}
+
+#box7 {
+    background-color: black;
+}
+
+#box8 {
+    background-color: black;
+}
+
