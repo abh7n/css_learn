@@ -1,0 +1,76 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('house.jpg');
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	color: white;
+	padding: 20px;
+    font-size: larger;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section .serv {
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+h1, h2 {
+	color: white;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+    color: white;
+	margin-bottom: 10px;
+}
+
+.image-gallery {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.image-gallery img {
+	width: 30%;
+	margin: 10px;
+    border: 2px solid white;
+	
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
