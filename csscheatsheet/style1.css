@@ -37,7 +37,7 @@ a:visited {
 }
 
 body {
-    background-color: blueviolet;
+    background-color: gray;
     color: antiquewhite;
 }
 
@@ -87,7 +87,7 @@ p {
 }
 
 .categories {
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
 
 .categories h1 {
@@ -104,6 +104,9 @@ p {
     border-bottom: dotted 5px beige;
     list-style-image: url('../csscheatsheet/tick.png');
 }
+
+
+/* form */
 
 .my-form {
     padding: 20px;
@@ -123,44 +126,17 @@ p {
     width: 100%;
 }
 
-.pbox {
-    height: 400;
-    width: 500;
-    padding-bottom: 30px;
-    border: 1px solid black;
-    position: relative;
-    background-image: url('../csscheatsheet/abstract.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.pbox h1 {
-    top: 100px;
-    position: absolute;
-}
-
 .fix {
     position: fixed;
     top: 100px;
     width: 40px;
-    height: 10px;
-}
-
-#mainblock {
-    float: left;
-    width: 70%;
-    padding-bottom: 50px;
-    border: 1px solid black;
-    box-sizing: border-box;
+    height: 20px;
 }
 
 
-#sideblock {
-    float: right;
-    width: 30%;
-    padding-bottom: 50px;
-    border: 1px solid black;
-    box-sizing: border-box;
+/* child element*/
+.itembox {
+    border: 2px black solid;
 }
 
 .itemlist li:first-child {
@@ -168,24 +144,24 @@ p {
 }
 
 .itemlist li:last-child {
-    background-color: solid red;
+  background-color: blue;
 }
 
-.itemlist li:nthchild(5) {
-    background-color: black solid;
+.itemlist li:nth-child(2) {
+    background-color: green;
 }
 
 
+/* flexbox */
 
 .mainbox {
     display: flex;
     flex-direction: row;
-    justify-content:baseline;
+    justify-content: baseline;
     flex-wrap: wrap;
     align-content: flex-start;
     column-gap: 10px;
     row-gap: 10px;
-
 
 }
 
@@ -230,4 +206,3 @@ p {
 #box8 {
     background-color: black;
 }
-

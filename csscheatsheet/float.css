@@ -1,0 +1,15 @@
+body {
+    padding: 20px;
+
+}
+
+#img1 {
+    float: left;
+    width: 30%;
+}
+
+.font { 
+    float: right ;
+    width: 65%;
+    margin: 0;
+}
